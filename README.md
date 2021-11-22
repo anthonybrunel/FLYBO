@@ -1,4 +1,4 @@
-# FLYBO  <span style="color:blue">flybo.org</span>.
+# FLYBO *flybo.org*
 
 Comming soon
 
