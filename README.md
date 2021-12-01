@@ -3,7 +3,7 @@
 
 ## Installation
 
-**Please checkout and install**
+**Please checkout and install the following:**
 
 [SplatPlanner - Rapid - Classic](https://github.com/anthonybrunel/splatplanner) 
 ```git clone git@github.com:anthonybrunel/splatplanner.git```
