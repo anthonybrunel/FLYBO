@@ -1,6 +1,6 @@
 # [FLYBO](flybo.org)
 
-Welcome to the main FLYBO repository.
+Welcome to the main FLYBO repository!
 
 The project website is available at www.flybo.org.
 
