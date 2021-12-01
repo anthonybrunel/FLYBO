@@ -1,6 +1,21 @@
-# FLYBO *flybo.org*
+# [FLYBO](flybo.org)
 
-Comming soon
+
+## Installation
+
+Please install
+
+[SplatPlanner - Rapid - Classic](https://github.com/anthonybrunel/splatplanner) 
+```git clone git@github.com:anthonybrunel/splatplanner.git```
+
+[TSDF Mapping](https://github.com/anthonybrunel/tsdf_mapping) 
+```git clone git@github.com:anthonybrunel/tsdf_mapping.git```
+
+[Depth Camera](https://github.com/anthonybrunel/vulkan_depth_vision) 
+```git clone git@github.com:anthonybrunel/vulkan_depth_vision.git```
+
+[Mapping System](https://github.com/anthonybrunel/map_core) 
+```git clone git@github.com:anthonybrunel/map_core.git```
 
 ## Citation
 
