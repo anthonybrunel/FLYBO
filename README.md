@@ -1,4 +1,4 @@
-# [FLYBO](www.flybo.org)
+# FLYBO
 
 Welcome to the main FLYBO repository!
 
