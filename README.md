@@ -4,21 +4,11 @@ Welcome to the main FLYBO repository!
 
 The project website is available at www.flybo.org.
 
+![Poster](http://flybo.org/images/2021/12/01/cap.png)
+
 ## Installation
 
-**Please checkout and install the following:**
-
-[Depth Camera](https://github.com/anthonybrunel/vulkan_depth_vision) 
-```git clone git@github.com:anthonybrunel/vulkan_depth_vision.git```
-
-[Mapping System](https://github.com/anthonybrunel/map_core) 
-```git clone git@github.com:anthonybrunel/map_core.git```
-
-[TSDF Mapping](https://github.com/anthonybrunel/tsdf_mapping) 
-```git clone git@github.com:anthonybrunel/tsdf_mapping.git```
-
-[SplatPlanner - Rapid - Classic](https://github.com/anthonybrunel/splatplanner) 
-```git clone git@github.com:anthonybrunel/splatplanner.git```
+Installation instructions are provided in the [FLYBO wiki](https://github.com/anthonybrunel/FLYBO/wiki). Feel free to create an issues if you have any questions or problems related to this package.
 
 
 ## Citation
