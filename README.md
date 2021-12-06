@@ -8,7 +8,7 @@ The project website is available at www.flybo.org.
 
 ## Installation
 
-Installation instructions are provided in the [FLYBO wiki](https://github.com/anthonybrunel/FLYBO/wiki). Feel free to create an issues if you have any questions or problems related to this package.
+Installation instructions are provided in the [FLYBO wiki](https://github.com/anthonybrunel/FLYBO/wiki). Feel free to create an issue if you have any questions or problems related to this package.
 
 
 ## Citation
