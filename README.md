@@ -1,4 +1,7 @@
-# FLYBO
+
+<p align="center">
+  <img src="http://flybo.org/images/flybo-fat.png">
+</p>
 
 Welcome to the official FLYBO repository!
 
