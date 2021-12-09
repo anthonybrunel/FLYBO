@@ -1,9 +1,9 @@
 
 <p align="center">
-  <img width= 400 src="http://flybo.org/images/flybo-fat.png">
+  <img width= 650 src="http://flybo.org/images/flybo-fat.png">
 </p>
 
-Welcome to the official FLYBO repository!
+# Welcome to the official FLYBO repository!
 
 The project website is available at www.flybo.org.
 
