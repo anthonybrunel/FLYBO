@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img width= 650 src="http://flybo.org/images/flybo-fat.png">
+  <a href="http://flybo.org/"><img width= 650 src="http://flybo.org/images/flybo-fat.png"></a>
 </p>
 
 # Welcome to the official FLYBO repository!
