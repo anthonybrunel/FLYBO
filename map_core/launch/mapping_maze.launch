@@ -1,0 +1,91 @@
+<launch>
+
+
+
+<arg name="voxel_size" default="0.1"/>
+<arg name="world_frame" default="world" />
+
+<arg name="cloud_topic" value="/camera/cloud"/>
+<arg name="odom_topic" value="/camera/odom"/>
+<arg name="depth_topic" value="/camera/z_depth"/>
+<arg name="z_depth_topic" value="/camera/z_depth"/>
+
+
+
+
+<arg name="useFov" value="true"/>
+<arg name="width" value="600"/>
+<arg name="fovx" value="90"/>
+<arg name="fovy" value="73.73"/>
+<arg name="max_range" default="5."/>
+
+
+  <arg name="x_start" value="0" />
+  <arg name="y_start" value="0" />
+  <arg name="z_start" value="0.0" />
+
+
+  <arg name="x_size" value="20" />
+  <arg name="y_size" value="20" />
+  <arg name="z_size" value="2.5" />
+
+  <arg name="origin_x" value="0" />
+  <arg name="origin_y" value="0" />
+  <arg name="origin_z" value="1." />
+
+
+  <include file="$(find vulkan_depth_vision)/launch/vizualisation_demo.launch" />
+
+
+ <node name="map_test" pkg="map_core" type="map_test" output="screen">
+   <!-- subscriber -->
+   <remap from="/map_core/cloud" to="$(arg cloud_topic)" />
+   <remap from="/map_core/odometry" to="$(arg odom_topic)" />
+   <remap from="/map_core/depth" to="$(arg depth_topic)" />
+
+   <param name="/map_core/resolution" value="$(arg voxel_size)" />
+   <param name="/map_core/x_size" value="$(arg x_size)" />
+   <param name="/map_core/y_size" value="$(arg y_size)" />
+   <param name="/map_core/z_size" value="$(arg z_size)" />
+
+   <param name="/map_core/origin_x" value="$(arg origin_x)" />
+   <param name="/map_core/origin_y" value="$(arg origin_y)" />
+   <param name="/map_core/origin_z" value="$(arg origin_z)" />
+
+ <param name="/map_core/useFov" value="$(arg useFov)" />
+ <param name="/map_core/width" value="$(arg width)" />
+ <param name="/map_core/fovx" value="$(arg fovx)" />
+ <param name="/map_core/fovy" value="$(arg fovy)" />
+ <param name="/map_core/max_range" value="$(arg max_range)" />
+ <param name="/map_core/esdf_mode" value="0" />
+  <param name="/map_core/debug" value="true" />
+
+</node>
+
+
+ <node name="map_server_test" pkg="map_core" type="map_server_test" output="screen">
+   <!-- subscriber -->
+   <remap from="/map_core/cloud" to="$(arg cloud_topic)" />
+   <remap from="/map_core/odometry" to="$(arg odom_topic)" />
+   <remap from="/map_core/depth" to="$(arg depth_topic)" />
+
+   <param name="/map_core/resolution" value="$(arg voxel_size)" />
+   <param name="/map_core/x_size" value="$(arg x_size)" />
+   <param name="/map_core/y_size" value="$(arg y_size)" />
+   <param name="/map_core/z_size" value="$(arg z_size)" />
+
+   <param name="/map_core/origin_x" value="$(arg origin_x)" />
+   <param name="/map_core/origin_y" value="$(arg origin_y)" />
+   <param name="/map_core/origin_z" value="$(arg origin_z)" />
+
+ <param name="/map_core/useFov" value="$(arg useFov)" />
+ <param name="/map_core/width" value="$(arg width)" />
+ <param name="/map_core/fovx" value="$(arg fovx)" />
+ <param name="/map_core/fovy" value="$(arg fovy)" />
+ <param name="/map_core/max_range" value="$(arg max_range)" />
+ <param name="/map_core/esdf_mode" value="0" />
+  <param name="/map_core/debug" value="true" />
+
+</node>
+
+</launch>

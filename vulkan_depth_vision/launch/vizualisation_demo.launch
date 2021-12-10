@@ -1,0 +1,59 @@
+<launch>
+
+
+<arg name="world_frame" default="world" />
+
+<arg name="cloud_topic" value="/camera/cloud"/>
+<arg name="odom_topic" value="/camera/odom"/>
+<arg name="depth_topic" value="/camera/z_depth"/>
+<arg name="z_depth_topic" value="/camera/z_depth"/>
+
+
+
+
+<arg name="useFov" value="true"/>
+<arg name="width" value="600"/>
+<arg name="fovx" value="90"/>
+<arg name="fovy" value="73.73"/>
+<arg name="max_range" default="5."/>
+
+
+
+
+  <arg name="mesh_folder" default="$(find vulkan_depth_vision)/maze/maze.obj"/>
+  <arg name="shaders_path" value="$(find vulkan_depth_vision)/shaders"/>
+
+
+  <arg name="origin_x" value="0" />
+  <arg name="origin_y" value="0" />
+  <arg name="origin_z" value="3" />
+  <arg name="p_oc_x" value="0." />
+  <arg name="p_oc_y" value="0." />
+  <arg name="p_oc_z" value="0." />
+  <arg name="p_oc_qx" value="0.0" />
+  <arg name="p_oc_qy" value="0.0" />
+  <arg name="p_oc_qz" value="0." />
+  <arg name="p_oc_qw" value="1." />
+
+
+ <node name="depth_cam_node" pkg="vulkan_depth_vision" type="depth_cam_node" output="screen">
+   <remap from="/camera/cloud" to="$(arg cloud_topic)" />
+   <remap from="/camera/odom" to="$(arg odom_topic)" />
+   <param name="/camera/useUavOdom" value="false" />
+   <param name="/camera/useFov" value="$(arg useFov)" />
+   <param name="/camera/width" value="$(arg width)" />
+   <param name="/camera/fovx" value="$(arg fovx)" />
+   <param name="/camera/fovy" value="$(arg fovy)" />
+   <param name="/camera/max_range" value="$(arg max_range)" />
+   <param name="/camera/model_path" value="$(arg mesh_folder)" />
+   <param name="/shaders_path" value="$(arg shaders_path)" />
+
+	
+
+   <param name="/camera/applyDepthNoise" value="false" />
+   <param name="/camera/applyOdomNoise" value="false" />
+ </node>
+
+  <node type="rviz" name="rviz_depth_vision" pkg="rviz" args="-d $(find vulkan_depth_vision)/launch/visualization_cfg.rviz"/>
+
+</launch>

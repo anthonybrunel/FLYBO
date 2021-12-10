@@ -1,0 +1,35 @@
+- git: {local-name: rotors_simulator, uri: 'https://github.com:ethz-asl/rotors_simulator.git'}
+- git: {local-name: catkin_boost_python_buildtool, uri: 'https://github.com:ethz-asl/catkin_boost_python_buildtool.git'}
+- git: {local-name: catkin_simple, uri: 'https://github.com:catkin/catkin_simple.git'}
+- git: {local-name: eigen_catkin, uri: 'https://github.com:ethz-asl/eigen_catkin.git'}
+- git: {local-name: eigen_checks, uri: 'https://github.com:ethz-asl/eigen_checks.git'}
+- git: {local-name: glog_catkin, uri: 'https://github.com:ethz-asl/glog_catkin.git'}
+- git: {local-name: mav_comm, uri: 'https://github.com:ethz-asl/mav_comm.git'}
+- git: {local-name: mavlink, uri: 'https://github.com:mavlink/mavlink.git'}
+- git: {local-name: nlopt, uri: 'https://github.com:ethz-asl/nlopt.git'}
+- git: {local-name: yaml_cpp_catkin, uri: 'https://github.com:ethz-asl/yaml_cpp_catkin.git'}
+- git: {local-name: mav_trajectory_generation, uri: 'https://github.com:ethz-asl/mav_trajectory_generation.git'}
+- git: {local-name: rpg_quadrotor_control, uri: 'https://github.com:uzh-rpg/rpg_quadrotor_control.git'}
+- git: {local-name: rpg_quadrotor_common, uri: 'https://github.com:uzh-rpg/rpg_quadrotor_common.git'}
+
+
+- git: {local-name: voxblox, uri: 'https://github.com:ethz-asl/voxblox.git'}
+- git: {local-name: protobuf_catkin, uri: 'https://github.com:ethz-asl/protobuf_catkin.git'}
+- git: {local-name: minkindr, uri: 'https://github.com:ethz-asl/minkindr.git'}
+- git: {local-name: minkindr_ros, uri: 'https://github.com:ethz-asl/minkindr_ros.git'}
+- git: {local-name: gflags_catkin, uri: 'https://github.com:ethz-asl/gflags_catkin.git'}
+- git: {local-name: numpy_eigen, uri: 'https://github.com:ethz-asl/numpy_eigen.git'}
+
+- git: {local-name: vulkan_depth_vision, uri: 'https://github.com:anthonybrunel/vulkan_depth_vision.git'}
+- git: {local-name: tsdf_mapping, uri: 'https://github.com:anthonybrunel/tsdf_mapping.git'}
+- git: {local-name: map_core, uri: 'https://github.com:anthonybrunel/map_core.git'}
+
+
+- git: {local-name: vulkan_depth_vision, uri: 'https://github.com:anthonybrunel/vulkan_depth_vision.git'}
+- git: {local-name: tsdf_mapping, uri: 'https://github.com:anthonybrunel/tsdf_mapping.git'}
+- git: {local-name: map_core, uri: 'https://github.com:anthonybrunel/map_core.git'}
+
+- git: {local-name: mav_active_3d_planning, uri: 'https://github.com:abourki/mav_active_3d_planning.git'}
+- git: {local-name: aeplanner, uri: 'https://github.com:anthonybrunel/aeplanner.git'}
+- git: {local-name: nbvplanner, uri: 'https://github.com:anthonybrunel/nbvplanner.git'}
+- git: {local-name: splatplanner, uri: 'https://github.com/anthonybrunel/splatplanner.git'}

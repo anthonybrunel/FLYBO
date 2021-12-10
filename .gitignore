@@ -1,0 +1,4 @@
+flybo_utils/resources/datasets/*/
+flybo_utils/resources/flybo_eval/*/
+**/CMakeLists.txt.user
+tsdf_mapping/data/maze/mesh*
