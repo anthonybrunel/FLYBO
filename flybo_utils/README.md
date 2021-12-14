@@ -1,4 +1,4 @@
-# Utils package for FLYBO
+# Utils for FLYBO
 
 This package is part of [FLYBO](https://github.com/anthonybrunel/FLYBO) project and is required to evaluate autonomous exploration planners methods in FLYBO.
 
@@ -7,7 +7,7 @@ This package is part of [FLYBO](https://github.com/anthonybrunel/FLYBO) project 
 Installation instructions are provided in the [FLYBO wiki](https://github.com/anthonybrunel/FLYBO/wiki). Feel free to create an issue if you have any questions or problems related to this package.
 
 
-# Containts
+# Contents
 
 * A python node in order to initialize the height of the MAV
 * Cloud extraction node help to generate dense and acurate point cloud of a simulate environement
