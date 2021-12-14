@@ -24,4 +24,4 @@ PCL ```sudo update && sudo apt install libpcl-dev```
 ```rosdep install --from-paths WORKSPACE --ignore-src --rosdistro=ROSDISTRO```
 
 
-##Demo
+## Minimal example
