@@ -20,15 +20,6 @@
 - git: {local-name: gflags_catkin, uri: 'https://github.com:ethz-asl/gflags_catkin.git'}
 - git: {local-name: numpy_eigen, uri: 'https://github.com:ethz-asl/numpy_eigen.git'}
 
-- git: {local-name: vulkan_depth_vision, uri: 'https://github.com:anthonybrunel/vulkan_depth_vision.git'}
-- git: {local-name: tsdf_mapping, uri: 'https://github.com:anthonybrunel/tsdf_mapping.git'}
-- git: {local-name: map_core, uri: 'https://github.com:anthonybrunel/map_core.git'}
-
-
-- git: {local-name: vulkan_depth_vision, uri: 'https://github.com:anthonybrunel/vulkan_depth_vision.git'}
-- git: {local-name: tsdf_mapping, uri: 'https://github.com:anthonybrunel/tsdf_mapping.git'}
-- git: {local-name: map_core, uri: 'https://github.com:anthonybrunel/map_core.git'}
-
 - git: {local-name: mav_active_3d_planning, uri: 'https://github.com:abourki/mav_active_3d_planning.git'}
 - git: {local-name: aeplanner, uri: 'https://github.com:anthonybrunel/aeplanner.git'}
 - git: {local-name: nbvplanner, uri: 'https://github.com:anthonybrunel/nbvplanner.git'}
